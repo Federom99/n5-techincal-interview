@@ -1,0 +1,17 @@
+.add-product {
+    @include container;
+    margin-top: 20px;
+  
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+  
+      input, button {
+        padding: 10px;
+        border: 1px solid $dark-color;
+        border-radius: 8px;
+      }
+    }
+  }
+  

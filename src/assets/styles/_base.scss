@@ -1,0 +1,27 @@
+body.light-mode {
+    background-color: $light-color;
+    color: $text-color;
+  }
+  
+  body.dark-mode {
+    background-color: $dark-color;
+    color: $light-color;
+  }
+  
+  h1, h2, h3 {
+    color: $primary-color;
+  }
+  
+  button {
+    background-color: $primary-color;
+    color: $light-color;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  
+    &:hover {
+      background-color: darken($primary-color, 10%);
+    }
+  }
+  

@@ -1,0 +1,43 @@
+.product-list {
+    @include container;
+    margin-top: 20px;
+  
+    .product-item {
+      background-color: $light-color;
+      border: 1px solid $dark-color;
+      padding: 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      text-align: center;
+  
+      input {
+        margin: 10px 0;
+        padding: 5px;
+        width: 50px;
+        height: 35px;
+        &:first-of-type {
+          margin-right: 10px;
+        }
+      }
+  
+      button {
+        margin-top: 10px;
+        height: 34px;
+      }
+
+      p{
+       
+          color: $dark-color;
+        
+      }
+
+      .product-info {
+        color: $dark-color;
+  
+        &.dark-mode {
+          color: $light-color;
+        }
+      }
+    }
+  }
+  
